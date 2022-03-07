@@ -6,7 +6,6 @@
 }
 
 .container {
-  background-color: blue;
   width: 100vh;
   height: 100vh;
 
@@ -16,13 +15,20 @@
 }
 
 .modal {
-  background-color: aliceblue;
+  background-color: white;
   width: 500px;
   height: 300px;
-  visibility: hidden;
+  display: none;
+  z-index: 0;
 }
 .open-model {
-  visibility: visible;
+  display: block;
+}
+.bgr-color {
+  background-color: grey;
+}
+.hide-btn {
+  visibility: hidden;
 }
 .sho/* .offer-container {
   display: inline-block;
