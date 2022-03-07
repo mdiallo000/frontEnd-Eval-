@@ -14,3 +14,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.modal {
+  background-color: aliceblue;
+  width: 500px;
+  height: 300px;
+  display: none;
+}
+
+.offer-container {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
