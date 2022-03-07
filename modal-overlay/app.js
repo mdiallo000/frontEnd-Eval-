@@ -26,4 +26,5 @@ acceptOffer.addEventListener('click', (e) => {
   //   ** now we can hide the show offer btn with
   showBtn.classList.add('remove-offer');
   offeraccepted.classList.add('show-offer');
+  container.style.background = 'blue';
 });
