@@ -19,11 +19,13 @@
   background-color: aliceblue;
   width: 500px;
   height: 300px;
-  display: none;
+  visibility: hidden;
 }
-
-.offer-container {
+.open-model {
+  visibility: visible;
+}
+.sho/* .offer-container {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
-}
+} */;
