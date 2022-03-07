@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Mortgage calculator</h1>
+    <div class="form-container">
+      <form action="" class="myform">
+        <label for="principal"> Principal loan amount</label>
+        <div>
+          <input class="principal" required type="number" name="principal" />
+        </div>
+
+        <label for="interest"> interest Rate</label>
+        <div>
+          <input class="interest" required type="number" name="interest" /> %
+        </div>
+
+        <label for="length">Length of loan</label>
+        <div>
+          <input class="length" required type="number" name="length" id="" />
+          Years
+        </div>
+        <button class="btn" type="submit">calculate</button>
+      </form>
+      <p class="content"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
