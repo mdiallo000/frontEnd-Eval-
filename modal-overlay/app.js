@@ -17,3 +17,13 @@ closeModal.addEventListener('click', (e) => {
 });
 
 const acceptOffer = document.querySelector('.accept-btn');
+let offeraccepted = document.querySelector('.offer-accepted');
+acceptOffer.addEventListener('click', (e) => {
+  modal.classList.remove('open-model');
+  showBtn.classList.remove('hide-btn');
+  container.classList.remove('bgr-color');
+
+  //   ** now we can hide the show offer btn with
+  showBtn.classList.add('remove-offer');
+  offeraccepted.classList.add('show-offer');
+});

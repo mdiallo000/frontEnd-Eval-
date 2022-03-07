@@ -30,8 +30,18 @@
 .hide-btn {
   visibility: hidden;
 }
-.sho/* .offer-container {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-} */;
+
+/* ** This hides to offer acccpetd h1 tag */
+.offer-accepted {
+  display: none;
+}
+
+/* ** If we press accept then we will show that the offert was accepted and  */
+/* This shows it  */
+.show-offer {
+  display: block;
+}
+
+.remove-offer {
+  display: none;
+}
